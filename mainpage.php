@@ -14,13 +14,13 @@
 
         <div class="slider">
             <button class="btn" onclick="prev()" style="float: left;">
-                <img src="img/Left.png" />
+                <img src="images/Left.png" />
             </button>
             <div class="img-box">  
-                <img src="img/1.png" class="slider-img">
+                <img src="Pic/1.png" class="slider-img">
             </div>
             <button class="btn" onclick="next()" style="float: right;">
-                <img src="img/Right.png" />
+                <img src="images/Right.png" />
             </button>
         </div>
 
