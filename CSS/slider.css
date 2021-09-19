@@ -1,0 +1,36 @@
+.slider{
+    margin:100px auto 0px 600px;
+    width: auto;
+    height: 600px;
+}
+
+.img-box{
+    display: inline-block;
+    position: static;
+    margin-left: 100px;
+}
+
+.img-box img{
+    width: 500px;
+    height: 450px;
+}
+
+.btn{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    cursor: pointer;
+    position: fixed;
+    height: 450px;
+    width: 110px;
+    transition: 0.3s;
+}
+
+.btn img{
+    height: 100px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(179, 179, 179);
+}
