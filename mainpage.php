@@ -13,18 +13,18 @@
         <?php include ('include/Header.php'); // include contents from header.php ?>
 
         <div class="slider">
-            <button class="btn" onclick="prev()" style="float: left;">
+            <div class="btn" onclick="prev()">
                 <img src="images/Left.png" />
-            </button>
+            </div>
             <div class="img-box">  
                 <img src="Pic/1.png" class="slider-img">
             </div>
-            <button class="btn" onclick="next()" style="float: right;">
+            <div class="btn" onclick="next()" style="margin-left: 700px;">
                 <img src="images/Right.png" />
-            </button>
+            </div>
         </div>
 
-        <?php include ('include/Footer.php'); ?>
+        <?php include ('include/Footer.php'); // include contents from footer.php ?>
 
         <script src="JavaScript/slider.js"></script>
         
