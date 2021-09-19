@@ -5,7 +5,7 @@
 ?>
     <html lang="en">
     <head>
-        <link rel="stylesheet" href="../CSS/slider.css">
+        <link rel="stylesheet" href="CSS/slider.css">
     </head>
 
     <body>
