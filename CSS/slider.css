@@ -1,13 +1,13 @@
 .slider{
-    margin:100px auto 0px 600px;
+    margin-left:390px;
+    margin-top: 50px;
     width: auto;
-    height: 600px;
+    height: 450px;
 }
 
 .img-box{
-    display: inline-block;
-    position: static;
-    margin-left: 100px;
+    position: fixed;
+    margin-left: 150px;
 }
 
 .img-box img{
@@ -18,19 +18,21 @@
 .btn{
     border:none;
     outline:none;
-    background-color: transparent;
+    background-color: rgb(179, 179, 179);
     cursor: pointer;
     position: fixed;
     height: 450px;
-    width: 110px;
+    width: 100px;
     transition: 0.3s;
+    border-radius: 25px;
 }
 
 .btn img{
     height: 100px;
-    width: 100px;
+    width: 70px;
+    padding: 175px 15px 175px 15px;
 }
 
 .btn:hover{
-    background-color: rgb(179, 179, 179);
+    background-color: grey
 }
