@@ -15,7 +15,7 @@
 		 
 		 echo "<ul>";
             //List all the content in the menu and the link of the content
-            echo "<li class='menuitem'><a href='.php'>Image Screening</a></li>";
+            echo "<li class='menuitem'><a href='mainpage.php'>Image Screening</a></li>";
             echo "<li class='menuitem'><a href='.php'>Edit Defect Categories</a></li>";
             echo "<li class='menuitem'><a href='.php'>Pass Images</a></li>";
             echo "<li class='menuitem'><a href='.php'>Fail Images</a></li>";
