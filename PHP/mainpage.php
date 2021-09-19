@@ -9,10 +9,10 @@
 
     <body>
 <?php
-        include ('include/Header.php'); // include contents from header.php
+        include ('../Include/Header.php'); // include contents from header.php
               
 
-        include ('include/Footer.php');
+        include ('../Include/Footer.php');
 ?>
         </body>
         </html>
