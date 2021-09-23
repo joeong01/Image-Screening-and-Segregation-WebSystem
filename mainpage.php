@@ -20,14 +20,26 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Custom styles for this template -->
 		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="CSS/slider.css">
 	</head>
 
 	<body id="page-top">
 
-<?php
-		include ('include/Header.php'); // include contents from header.php
+<?php include ('include/Header.php'); ?>// include contents from header.php
+		
+		<div class="slider">
+            <div class="btn" onclick="prev()">
+                <img src="images/Left.png" />
+            </div>
+            <div class="img-box">  
+                <img src="Pic/1.png" class="slider-img">
+            </div>
+            <div class="btn" onclick="next()" style="margin-left: 700px;">
+                <img src="images/Right.png" />
+            </div>
+        </div>
 
-	    include ('include/Footer.php');
+<?php	    include ('include/Footer.php');
 
     	// Bootstrap core JavaScript
 		// Placed at the end of the document so the pages load faster 
