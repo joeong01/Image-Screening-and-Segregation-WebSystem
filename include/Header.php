@@ -4,7 +4,7 @@
     include('include/dbconnection.php');
 ?>
 <head>
-	<link href="CSS/dropdown_viewImage.css" rel="stylesheet">
+	<link href="../css/dropdown_viewImage.css" rel="stylesheet">
 </head>
 <!-- Navigation -->
 		
