@@ -34,14 +34,12 @@
 				<li>
 					<a href='.php'>Edit Defect Categories</a>
 				</li>
-				<li>
-					<div class="dropdown">
-						<button class="dropbtn">View Images</button>
-						<div class="dropdown-content">
-							<a href=".php">Pass Images</a>
-							<a href=".php">Defect Images</a>
-						</div>
-					</div>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">View Images<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href='.php'>Pass Images</a></li>
+						<li><a href='.php'>Defect Images</a></li>
+					</ul>
 				</li>
 				<li>
 					<a href='SignIn.php'>Settings</a>
