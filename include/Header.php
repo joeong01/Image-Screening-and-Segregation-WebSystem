@@ -3,7 +3,9 @@
     error_reporting(0);
     include('include/dbconnection.php');
 ?>
-
+<head>
+	<link href="CSS/dropdown_viewImage.css" rel="stylesheet">
+</head>
 <!-- Navigation -->
 		
 <nav class='navbar navbar-default'>
@@ -33,10 +35,13 @@
 					<a href='.php'>Edit Defect Categories</a>
 				</li>
 				<li>
-					<a href='.php'>Pass Images</a>
-				</li>
-				<li>
-					<a href='.php'>Fail Images</a>
+					<div class="dropdown">
+						<button class="dropbtn">View Images</button>
+						<div class="dropdown-content">
+							<a href=".php">Pass Images</a>
+							<a href=".php">Defect Images</a>
+						</div>
+					</div>
 				</li>
 				<li>
 					<a href='SignIn.php'>Settings</a>
