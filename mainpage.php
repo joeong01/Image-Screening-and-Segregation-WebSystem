@@ -25,8 +25,8 @@
 
 	<body id="page-top">
 
-<?php include ('include/Header.php'); ?>// include contents from header.php
-		
+<?php include ('include/Header.php'); // include contents from header.php
+?>		
 		<div class="slider">
             <div class="btn" onclick="prev()">
                 <img src="images/Left.png" />
@@ -47,6 +47,7 @@
 		echo "<script src='js/bootstrap.min.js'></script>";
 		echo "<script src='js/SmoothScroll.js'></script>";
 		echo "<script src='js/theme-scripts.js'></script>";
+		echo "<script src='js/slider.js'></script>";
 	echo "</body>";
 echo "</html>";
 ?>
