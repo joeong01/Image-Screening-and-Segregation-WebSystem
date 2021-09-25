@@ -114,7 +114,7 @@
                             }
 
                             echo "<p>Return to <a href='signin.php'>Sign In</a></p>"; 
-                            echo "<button>Try Again ?</button>"; 
+                            echo "<button class='button1'>Try Again ?</button>"; 
                         echo "</form> "; 
                     echo "</div>"; //end the css of the sign-up-form
                     echo "<p>&nbsp;</p><p>&nbsp;</p>"; 
@@ -196,7 +196,7 @@ else {
                         echo "<input type='password' name='password' id='input-box' method='post' placeholder='New Password (8 or more characters)'>";
                         echo "<input type='password' name='conPassword' id='input-box' method='post' placeholder='Confirm Password'>";
                         echo "<p>Return to <a href='signin.php'>Sign In</a></p>"; 
-                        echo "<button type='submit' name='submit'>Sign Up</button>"; 
+                        echo "<button class='button1' type='submit' name='submit'>Sign Up</button>"; 
                         echo "<input type='hidden' name='submitted' value='true'><br>"; 
                         // hidden input type with value used to check if form submitted
 

@@ -63,8 +63,7 @@
                     }
 
                     //try again
-                    echo "<p>&nbsp;</p><hr><p>&nbsp;</p><p>&nbsp;</p>";
-                    echo "<button>Try Again ?</button>"; // this button will direct user back to sign in page
+                    echo "<button class='button1'>Try Again ?</button>"; // this button will direct user back to sign in page
                     echo "<p>&nbsp;</p>";
                     echo "<p>Do you have an account? <a href='signup.php'>Sign up</a></p>";
     
@@ -100,7 +99,7 @@
                     }
             
                     //try again
-                    echo "<button>Try Again ?</button>"; // this button will direct user back to sign in page
+                    echo "<button class='button1'>Try Again ?</button>"; // this button will direct user back to sign in page
                     echo "<p>Do you have an account? <a href='signup.php'>Sign up</a></p>";
 
                 echo "</form> "; // end form
@@ -165,7 +164,7 @@
                         echo "<input type='text' name = 'userId' id='input-box' placeholder='User ID'>";
                         echo "<input type='password' name = 'password' id='input-box' placeholder='Password'>";
                         echo "<p>&nbsp;</p>";
-                        echo "<button type='submit' name='submit'>Sign In</button>"; 
+                        echo "<button class='button1' type='submit' name='submit'>Sign In</button>"; 
                         echo "<input type='hidden' name='submitted' value='true'><br>";
                         echo "<p>Do you have an account? <a href='signup.php'>Sign up</a></p>"; 
                         // If user do not have account, this will direct them to sign up
