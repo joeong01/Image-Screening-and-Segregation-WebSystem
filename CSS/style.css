@@ -1,3 +1,11 @@
+/*------------------------------------------------------------------
+
+Project:	Treviso - One page multi purpose page
+Version:	1.0
+Last change:	17/08/2015 [...]
+Designed by:	MOOZ Themes / www.MOOZthemes.com
+Primary use:	One page
+
 /*--------------------
 Import Google Fonts
 --------------------*/
@@ -35,16 +43,13 @@ p {
 	color: #252525;
 }
 
-a:hover, a:focus, a:active, a.active {
-    color: #fec503;
-}
+
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
 }
 
 @media (min-width: 768px) {
@@ -557,7 +562,6 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -568,14 +572,10 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
 }
 
-.btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
+.btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
 }
 
 .btn {
@@ -586,7 +586,7 @@ font-size: 11px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
-    white-space: nowrap;
+    white-space: wrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -828,7 +828,7 @@ body {
 	font-size: 15px;
 }
 
-button{
+.button1{
    background-color: #80bfec;
    color: black;
    width: 95%;
@@ -856,7 +856,7 @@ Button{
    transition: 0.25px;
  }
  
- button:hover { 
+ .button1:hover { 
    background-color:  #6666ff;
  }
 

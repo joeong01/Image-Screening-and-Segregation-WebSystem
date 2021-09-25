@@ -1,0 +1,37 @@
+.button-glow-red {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: red;
+  padding: 15px 40px;
+  border-radius: 4px;
+  width: 10%;
+  border:0;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button-red:hover {
+  color: rgba(255, 255, 255, 1);
+  background: red;
+  box-shadow: 0 3px 10px rgb(255, 68, 68);
+}
+
+.button-glow-green {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: green;
+  padding: 15px 40px;
+  border-radius: 4px;
+  width: 10%;
+  border:0;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button-green:hover {
+  color: rgba(255, 255, 255, 1);
+  background: green;
+  box-shadow: 0 3px 10px rgb(14, 167, 14);
+}
