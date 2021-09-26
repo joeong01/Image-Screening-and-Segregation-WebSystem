@@ -4,6 +4,10 @@
     include('include/dbconnection.php');
 ?>
 
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+
 <!-- Navigation -->		
 <nav class='navbar navbar-default'>
 	<div class='container'>
@@ -23,7 +27,9 @@
 			<ul class='nav navbar-nav navbar-right'>
 				<li class='hidden'>
 					<a href='#page-top'></a>
-				</li>						
+				</li>		
+				<li class='hidden'>
+				</li>					
 			</ul>
 		</div>
 	<!-- /.navbar-collapse -->

@@ -18,6 +18,7 @@
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 		<!-- Custom styles for this template -->
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/button.css" rel="stylesheet">
@@ -28,8 +29,10 @@
 
 	<body id="page-top">
 
-	<?php include ('include/Header.php'); // include contents from header.php ?>		
-
+	<?php 
+		include ('include/Header.php'); // include contents from header.php 
+	?>		
+<div class="section-title">
 	<div class="slider">
         <div class="btn" onclick="prev()">
             <img src="images/Left.png"/>
@@ -37,12 +40,12 @@
         <div class="img-box">  
             <img src="Pic/1.png" class="slider-img">
         </div>
-        <div class="btn" onclick="next()" style="margin-left: 700px;">
+        <div class="btn" onclick="next()">
             <img src="images/Right.png"/>
         </div>
     </div>
 		
-	<div class="process">
+	<div class="display-centered">
 		<button class="btn1 button-glow-green glow-button-green">Pass</button>
 			
 			<!-- Button trigger modal -->
@@ -88,8 +91,11 @@
 			</div>
 		</div>	
 	</div>
+							</div>
 	
-	<?php include ('include/Footer.php');
+	<?php 
+
+	include ('include/Footer.php');
 
     	// Bootstrap core JavaScript
 		// Placed at the end of the document so the pages load faster 

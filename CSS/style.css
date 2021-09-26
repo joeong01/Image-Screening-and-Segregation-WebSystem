@@ -578,7 +578,7 @@ font-size: 11px;
     color: #fff;
 }
 
-.btn {
+.btn1 {
     display: inline-block;
     padding: 8px 20px;
     margin-bottom: 0;
@@ -690,7 +690,6 @@ body {
    display: block; 
    height:auto;
    position: relative; 
-   width: 1540px;
  }
 
 /*Sign In Page content*/
@@ -833,10 +832,11 @@ body {
    color: black;
    width: 95%;
    padding: 10px;
+   margin-left: 12px;
    border-radius: 20px;
    font-size: 15px;
-   margin: 10px 0;
-   border: none;
+   border-color: #000;
+   border: 10px;
    outline: none;
    cursor: pointer;
 }
@@ -881,4 +881,10 @@ Button{
    letter-spacing: 0.2em;
    text-transform: uppercase;
    font-size: 100%;
+}
+
+.display-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center
 }

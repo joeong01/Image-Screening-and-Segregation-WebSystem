@@ -9,6 +9,7 @@
   font-weight: normal;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  float:left;
 }
 
 .glow-button-red:hover {
@@ -28,6 +29,7 @@
   font-weight: normal;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  float:left;
 }
 
 .glow-button-green:hover {

@@ -3,6 +3,7 @@
     error_reporting(0);
     include('include/dbconnection.php');
 ?>
+
 <head>
 	<link href="../css/dropdown_viewImage.css" rel="stylesheet">
 </head>
