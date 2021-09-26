@@ -29,7 +29,7 @@
 					<a href='#page-top'></a>
 				</li>
 				<li>
-					<a href='.php'>Image Screening</a>
+					<a href='mainpage.php'>Image Screening</a>
 				</li>
 				<li>
 					<a href='.php'>Edit Defect Categories</a>
